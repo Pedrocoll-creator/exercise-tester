@@ -29,6 +29,10 @@ let oneEuroIs = {
 };
 
 
+function fromEuroToDollar(euro) {
+    let valueInDollar = euro * oneEuroIs["USD"];
+    return valueInDollar;
+}
 
 console.log(fromEuroToDollar(1));
 
